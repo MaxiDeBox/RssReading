@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KotlinRSSReading</string>
+    <string name="title_txt">Title</string>
+    <string name="publication_date_txt">Publication Date</string>
+</resources>

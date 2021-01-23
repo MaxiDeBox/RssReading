@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/eight_dp"
+    android:layout_marginLeft="@dimen/eight_dp"
+    android:layout_marginRight="@dimen/eight_dp"
+    android:layout_marginBottom="@dimen/eight_dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/purple_200"
+    >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="@dimen/eight_dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/featuredImg"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:minWidth="250dp"
+            android:minHeight="180dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:text="@string/title_txt"
+            android:textStyle="bold"
+            android:textSize="@dimen/eighteen_sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtPubdate"
+            android:layout_marginTop="@dimen/eight_dp"
+            android:text="@string/publication_date_txt"
+            android:textStyle="italic"
+            android:textSize="@dimen/twelve_sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtContent"
+            android:textStyle="normal"
+            android:text="content"
+            android:visibility="gone"
+            android:textSize="@dimen/fourteen_sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtLink"
+            android:textStyle="normal"
+            android:text="content"
+            android:visibility="gone"
+            android:textSize="@dimen/fourteen_sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="View"
+            android:layout_marginTop="@dimen/eight_dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
